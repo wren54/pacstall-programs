@@ -11,7 +11,7 @@ maintainer=("Oren Klopfer <oren@taumoda.com>")
 
 package() {
   echo "-- rhino-pkg makefile --"
-  echo ./Makefile
+  cat ./Makefile
   echo "-- end --"
   make install DESTDIR="${pkgdir}"
 
