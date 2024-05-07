@@ -17,8 +17,8 @@ package() {
   echo ${pkgdir}/usr
   cd ${pkgdir}/usr
   ls
-  echo ${pkgdir}/usr/share
-  cd ${pkgdir}/usr/share
+  echo ${pkgdir}/usr/share/rhino_pkg
+  cd ${pkgdir}/usr/share/rhino_pkg
   ls
   echo ${pkgdir}/usr/bin
   cd ${pkgdir}/usr/bin
