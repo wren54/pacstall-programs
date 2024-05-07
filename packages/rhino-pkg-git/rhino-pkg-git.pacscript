@@ -11,6 +11,6 @@ maintainer=("Oren Klopfer <oren@taumoda.com>")
 
 package() {
 
-  sudo make install DESTDIR="${pkgdir}"
+  make install DESTDIR="${pkgdir}"
 
 }
