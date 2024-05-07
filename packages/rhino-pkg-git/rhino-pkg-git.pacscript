@@ -11,7 +11,9 @@ maintainer=("Oren Klopfer <oren@taumoda.com>")
 
 package() {
   cd rhino-pkg-1.0.0-alpha.4
-
+  echo "-- current dir --"
+  ls
+  echo "running make"
   make install DESTDIR="${pkgdir}"
   echo "-- checking pkgdir --"
   echo ${pkgdir}/usr
