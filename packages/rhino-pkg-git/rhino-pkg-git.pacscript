@@ -13,6 +13,7 @@ package() {
   echo "-- current dir --"
   ls
   echo "-- end --"
+  cd v1.0.0-alpha
   make install DESTDIR="${pkgdir}"
 
 }
