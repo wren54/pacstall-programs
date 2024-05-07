@@ -1,5 +1,5 @@
 pkgname="rhino-pkg-git"
-source=("https://github.com/wren54/rhino-pkg")
+source=("https://github.com/wren54/rhino-pkg/archive/refs/tags/v1.0.0-alpha.zip")
 pkgver="1.0.0"
 url="https://rhinolinux.org/wiki-rpk.html"
 gives="rhino-pkg"
